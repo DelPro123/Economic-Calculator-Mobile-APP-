@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.econ">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".AbUs"></activity>
+        <activity android:name=".SYSDigit" />
+        <activity android:name=".DBalance" />
+        <activity android:name=".SFund" />
+        <activity android:name=".SLine" />
+        <activity android:name=".IF" />
+        <activity android:name=".IP" />
+        <activity android:name=".AP" />
+        <activity android:name=".AF" />
+        <activity android:name=".Annuity" />
+        <activity android:name=".INTEREST" />
+        <activity android:name=".Period" />
+        <activity android:name=".PresentValue" />
+        <activity android:name=".FutureValue" />
+        <activity
+            android:name=".SimpleInterest"
+            android:label="@string/title_activity_simple_interest"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Inflation" />
+        <activity android:name=".Depreciation" />
+        <activity android:name=".CompoundInterest" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

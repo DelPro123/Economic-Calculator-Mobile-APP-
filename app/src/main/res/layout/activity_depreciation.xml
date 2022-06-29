@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Depreciation">
+
+
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:layout_width="192dp"
+            android:layout_height="151dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="447dp"
+            app:srcCompat="@drawable/launcher" />
+
+        <ImageButton
+            android:id="@+id/imageButton13"
+            android:layout_width="192dp"
+            android:layout_height="151dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="308dp"
+            android:layout_marginEnd="209dp"
+            app:srcCompat="@drawable/launcher" />
+
+        <ImageButton
+            android:id="@+id/imageButton14"
+            android:layout_width="192dp"
+            android:layout_height="151dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="216dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginEnd="3dp"
+            app:srcCompat="@drawable/launcher" />
+
+        <ImageButton
+            android:id="@+id/imageButton15"
+            android:layout_width="192dp"
+            android:layout_height="151dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="219dp"
+            android:layout_marginTop="580dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="-1dp"
+            app:srcCompat="@drawable/launcher" />
+
+        <ImageButton
+            android:id="@+id/imageButton16"
+            android:layout_width="192dp"
+            android:layout_height="151dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="591dp"
+            android:layout_marginBottom="6dp"
+            app:srcCompat="@drawable/launcher" />
+
+        <ImageButton
+            android:id="@+id/imageButton26"
+            android:layout_width="192dp"
+            android:layout_height="151dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="155dp"
+            app:srcCompat="@drawable/launcher" />
+
+        <ImageButton
+            android:id="@+id/imageButton27"
+            android:layout_width="192dp"
+            android:layout_height="151dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="222dp"
+            android:layout_marginTop="-2dp"
+            android:layout_marginEnd="-3dp"
+            app:srcCompat="@drawable/launcher" />
+
+        <ImageButton
+            android:id="@+id/imageButton31"
+            android:layout_width="192dp"
+            android:layout_height="151dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="163dp"
+            android:layout_marginEnd="-11dp"
+            app:srcCompat="@drawable/launcher" />
+
+        <ImageButton
+            android:id="@+id/imageButton32"
+            android:layout_width="192dp"
+            android:layout_height="151dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="225dp"
+            android:layout_marginTop="308dp"
+            android:layout_marginEnd="-6dp"
+            app:srcCompat="@drawable/launcher" />
+
+        <ImageButton
+            android:id="@+id/imageButton28"
+            android:layout_width="192dp"
+            android:layout_height="151dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/launcher" />
+
+        <Button
+            android:id="@+id/button65"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="369dp"
+            android:layout_marginEnd="107dp"
+            android:background="@color/colorPrimary"
+            android:text=" Sum of Years Digit  "
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="148dp"
+            android:layout_marginEnd="110dp"
+            android:background="@color/colorPrimary"
+
+            android:text="       Straight Line      "
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="220dp"
+            android:layout_marginEnd="106dp"
+            android:background="@color/colorPrimary"
+            android:text="       Sinking Fund         "
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button63"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="293dp"
+            android:layout_marginEnd="107dp"
+            android:background="@color/colorPrimary"
+            android:text=" Declining Balance  "
+            android:textColor="@color/white" />
+
+
+</RelativeLayout>

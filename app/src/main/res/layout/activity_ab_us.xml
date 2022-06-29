@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AbUs">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="285dp"
+        android:layout_height="247dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="59dp"
+        tools:srcCompat="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/AbsU1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="150dp"
+        android:text="DEVELOPER:                          \n\n             Johndel Siriban                           \n             JM Nocon                           \n             BSCPE-201 A            \n                \n "
+        android:textSize="28px" />
+
+    <TextView
+        android:id="@+id/AbsU2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="62dp"
+        android:text="        WeDeveloper@2019                    "
+        android:textSize="20px" />
+</RelativeLayout>

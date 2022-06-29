@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="111dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:text="    Simple Interest     " />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="107dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:text=" Compound Interest " />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="221dp"
+        android:layout_marginEnd="108dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:text="            Annuity              " />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="369dp"
+        android:layout_marginEnd="106dp"
+        android:background="@color/colorPrimary"
+        android:text="          Inflation              "
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="297dp"
+        android:layout_marginEnd="108dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:text="        Depreciation       " />
+
+    <Button
+        android:id="@+id/About"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="439dp"
+        android:layout_marginEnd="106dp"
+        android:background="@color/colorPrimary"
+        android:text="            About Us             "
+        android:textColor="@color/white" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="192dp"
+        android:layout_height="151dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="1dp"
+        app:srcCompat="@drawable/launcher" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="192dp"
+        android:layout_height="151dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="612dp"
+        app:srcCompat="@drawable/launcher" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="192dp"
+        android:layout_height="151dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="221dp"
+        android:layout_marginTop="612dp"
+        android:layout_marginEnd="-2dp"
+        app:srcCompat="@drawable/launcher" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="192dp"
+        android:layout_height="151dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="219dp"
+        android:layout_marginTop="461dp"
+        android:layout_marginEnd="0dp"
+        app:srcCompat="@drawable/launcher" />
+
+    <ImageButton
+        android:id="@+id/imageButton20"
+        android:layout_width="192dp"
+        android:layout_height="151dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="309dp"
+        android:layout_marginEnd="-1dp"
+        app:srcCompat="@drawable/launcher" />
+
+    <ImageButton
+        android:id="@+id/imageButton21"
+        android:layout_width="192dp"
+        android:layout_height="151dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="221dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginEnd="-2dp"
+        app:srcCompat="@drawable/launcher" />
+
+    <ImageButton
+        android:id="@+id/imageButton22"
+        android:layout_width="192dp"
+        android:layout_height="151dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="159dp"
+        app:srcCompat="@drawable/launcher" />
+
+    <ImageButton
+        android:id="@+id/imageButton23"
+        android:layout_width="192dp"
+        android:layout_height="151dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        app:srcCompat="@drawable/launcher" />
+
+    <ImageButton
+        android:id="@+id/imageButton24"
+        android:layout_width="192dp"
+        android:layout_height="151dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="460dp"
+        app:srcCompat="@drawable/launcher" />
+
+    <ImageButton
+        android:id="@+id/imageButton25"
+        android:layout_width="192dp"
+        android:layout_height="151dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="309dp"
+        app:srcCompat="@drawable/launcher" />
+
+</RelativeLayout>

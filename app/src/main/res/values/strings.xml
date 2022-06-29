@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EconCalculator</string>
+    <string name="title_activity_simple_interest">SimpleInterest</string>
+    <string name="tab_text_1">Future</string>
+    <string name="tab_text_2">Present</string>
+    <string name="tab_text_3">Period</string>
+    <string name="tab_text_4">Interest</string>
+
+
+</resources>
